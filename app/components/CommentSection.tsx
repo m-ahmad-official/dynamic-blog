@@ -30,7 +30,7 @@ export default function CommentSection() {
     };
 
     return (
-        <div className="flex items-center justify-center mt-20 mb-40">
+        <div className="flex items-center justify-center my-40">
             <div className="mx-auto p-8 sm:w-[450px] bg-gray-100 rounded-lg shadow-[0_4px_12px_1px_rgba(0,0,0,0.4)]">
                 <h2 className="text-2xl font-bold mb-6 text-center">Comment Section</h2>
 
