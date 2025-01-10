@@ -8,7 +8,7 @@
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
 
-const emptySubscribe = () => () => {};
+const emptySubscribe = () => () => { };
 
 export default function Onboarding() {
   const target = useSyncExternalStore(
